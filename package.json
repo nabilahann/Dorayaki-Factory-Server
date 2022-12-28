@@ -1,0 +1,25 @@
+{
+  "name": "dorayaki-factory-server",
+  "version": "1.0.0",
+  "description": "Server pabrik dorayaki dengan menggunakan REST dan node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.informatika.org/if3110-2021-02-58/dorayaki-factory-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "sequelize": "*"
+  }
+}

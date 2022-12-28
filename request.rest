@@ -1,0 +1,21 @@
+GET http://localhost:4000/users
+Authorization: Baerer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJzYXlhIiwiZW1haWwiOiJzYXlhQGdtYWlsLmNvbSIsImlhdCI6MTYzNzMzOTU0NywiZXhwIjoxNjM3MzM5NjA3fQ.M_8Q3KrpZQ0Jq9Ga8nILfBXvwX0ALEAdFcGOUiYpmlI
+
+###
+POST http://localhost:3001/register
+content-type: application/json
+{
+    "email" : "saya@gmail.com",
+    "name" : "saya",
+    "username" : "saya",
+    "password" : "12345"
+}
+
+###
+POST http://localhost:3001/login
+content-type: application/json
+
+{
+    "email" : "saya@gmail.com",
+    "password" : "12345"
+}
